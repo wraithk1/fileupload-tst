@@ -1,0 +1,41 @@
+.modal {
+
+}
+
+.modal--type_upload {
+
+}
+
+.modal--type_edit {
+
+}
+
+.modal.modal--type_upload .ant-space-item,
+.modal.modal--type_edit .ant-space-item {
+  width: 100% !important;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0) !important;
+  backdrop-filter: blur(8px);
+}
+
+.modal--type_upload .ant-modal-content {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: 3px dotted rgba(0, 0, 0, .05) !important;
+}
+
+.modal--type_edit .ant-modal-content {
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.ant-modal-content {
+  position: static !important;
+}

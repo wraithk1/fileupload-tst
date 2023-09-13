@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html {
+  /* colors */
+  --white-color: #fff;
+  --red-color: #E3170A;
+  --green-color: #A9E5BB;
+  --yellow-color: #FCF6B1;
+  --orange-color: #F7B32B;
+  --purple-900-color: #2D1E2F;
+  --purple-800-color: #3D293F;
+  --purple-700-color: #523756;
+  --purple-600-color: #6F4A74;
+  --purple-500-color: #95649C;
+  --gray-900-color: #393E46;
+  --gray-500-color: #929AAB;
+  --gray-200-color: #EEEEEE;
+  --gray-100-color: #F7F7F7;
+  /* typography */
+  /* typography: font-size */
+  --fs-sm: 0.833em;
+  --fs-default: 1em;
+  --fs-lg: 1.2em;
+  --fs-h3: 1.44em;
+  --fs-h2: 1.728em;
+  --fs-h1: 2.074em;
+  /* typography: font-weight */
+  --fw-normal: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+}
+*:not(code) {
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
