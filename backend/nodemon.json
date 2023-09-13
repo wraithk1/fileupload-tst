@@ -1,0 +1,8 @@
+{
+  "restart": "rs",
+  "colours": true,
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "ignore": ["public", "node_modules"]
+}
