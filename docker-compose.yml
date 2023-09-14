@@ -32,11 +32,6 @@ services:
       - CLIENT_ORIGIN=$CLIENT_ORIGIN
     volumes: 
       - ./backend/public/uploads:/backend/public/uploads/
-      # - ./backend:/app
-    # volumes:
-      # - .:source/
-      # - uploads:/$(pwd)/frontend/src/public/uploads
-      # - uploads:/home/user/projects/fileupload-proto/frontend/public/uploads
     networks:
       - backend
       - frontend
@@ -56,7 +51,6 @@ services:
 
 volumes:
   db:
-  # uploads:
 
 networks:
   backend:
